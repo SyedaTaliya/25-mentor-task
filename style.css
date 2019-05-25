@@ -1,0 +1,37 @@
+ body{
+     margin: 0;
+     padding: 0;
+
+ }
+
+section{
+    display: flex;
+}
+
+.side-nav{
+  background-color: #3f0e40;
+  color: rgb(199, 194, 194);
+  width: 250px;
+  height: auto;
+  font-size: 18px;
+}
+
+ul>li{
+    list-style-type: none;
+    padding: 2px;
+}
+
+ul{
+padding: 0;
+}
+
+.h2{
+    color: white;
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(202, 188, 188); 
+}
+
