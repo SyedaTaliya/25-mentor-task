@@ -1,37 +1,147 @@
- body{
-     margin: 0;
-     padding: 0;
-
- }
-
-section{
-    display: flex;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
-.side-nav{
-  background-color: #3f0e40;
-  color: rgb(199, 194, 194);
-  width: 250px;
-  height: auto;
-  font-size: 18px;
+/* side-bar (purple panel)*/
+
+.side-bar {
+    background-color: #3f0e40;
+    color: rgb(199, 194, 194);
+    width: 320px;
+    font-size: 17px;
 }
 
-ul>li{
+ul>li {
     list-style-type: none;
-    padding: 2px;
 }
 
-ul{
-padding: 0;
+ul {
+    padding: 0 20px;
 }
 
-.h2{
+.h3 {
     color: white;
 }
 
-.top-nav{
+/* whole section */
+
+.container {
     display: flex;
-    flex-direction: row;
-    border-bottom: 1px solid rgb(202, 188, 188); 
 }
 
+.time{
+    font-weight:lighter;
+    color:grey;
+    font-size:12px;
+}
+
+.com{
+    color:lightgrey;
+}
+/* header */
+
+.center {
+    padding-left: 1em;
+}
+
+.profile~img {
+    width: 360px;
+    height: 194px;
+    padding-left: 50px;
+}
+
+.tk-19 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile img {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.space {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.detail{
+    margin-top:20px;
+}
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.top-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.top-nav h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    margin: 10px 0 8px 0;
+}
+
+.top-nav .nav-icons {
+    font-size: 13px;
+    color: #656465;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.top-nav .nav-icons span {
+    border-right: 1px solid #656465;
+    padding: 0 8px;
+}
+
+.top-nav .nav-icons span:last-child {
+    border-right: 0px solid #656465;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.right-side span {
+    margin: 8px;
+    font-size: 18px;
+}
+
+.right-side button {
+    color: #aa95ab;
+    background: transparent;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 192px;
+    margin-top: 5px;
+    margin-left: 14px;
+    margin-right: 14px;
+    top: 16px;
+    border: 1px solid #868686;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+.right-side button i {
+    margin: 0 5px;
+    color: black;
+}
